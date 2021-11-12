@@ -53,8 +53,8 @@ router.post('/add', async (req,res) => {
     }
 
     await Cidade.create(req.body).then(() => {
-        res.status(200).json({message: "cadastrado com sucesso"});
-        console.log(body)
+        res.status(201).json({message: "cadastrado com sucesso"});
+        
     }).catch((err) => {
         res.status(400).json({message: "algo esta errado"});
         console.error(err);

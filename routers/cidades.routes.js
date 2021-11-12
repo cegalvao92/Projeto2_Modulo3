@@ -95,4 +95,6 @@ router.delete('/delete/:id', async (req, res) => {
     res.send({ message: 'Cidade excluída com sucesso' });
 });
 
+
+
 module.exports = router;

@@ -9,4 +9,6 @@ const paisesModel = new mongoose.Schema({
 
 const Pais = mongoose.model("Paises",paisesModel);
 
+
+
 module.exports = Pais;

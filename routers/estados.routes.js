@@ -97,4 +97,6 @@ router.delete('/delete/:id', async (req, res) => {
     res.send({ message: 'Estado excluído com sucesso' });
 });
 
+
+
 module.exports = router;

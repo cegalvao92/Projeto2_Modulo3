@@ -9,4 +9,5 @@ const estadosModel = new mongoose.Schema({
 
 const Estado = mongoose.model("Estados",estadosModel);
 
+
 module.exports = Estado;

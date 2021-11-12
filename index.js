@@ -21,3 +21,6 @@ app.use('/paises',paisesRouter);
 app.listen(port, () => {
     console.log(`Servidor rodando em: http://localhost:${port}`);
 });
+
+
+

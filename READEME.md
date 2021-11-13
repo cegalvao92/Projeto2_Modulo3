@@ -1,4 +1,4 @@
-<!-- # Projeto2_Modulo3
+# Projeto2_Modulo3
 
 Na pasta Models, temos uma subpasta chamada conn.
 
@@ -26,4 +26,4 @@ async function Conn(){
   module.exports = Conn;
   ```
 
-- Exportando o modelo pronto -->
+- Exportando o modelo pronto

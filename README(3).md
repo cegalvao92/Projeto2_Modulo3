@@ -1,6 +1,6 @@
 # Projeto2_Modulo3
 
-- Na pasta routers, temos três arquivos javascript, cidades.routes.js, estados.routes.js e paises.routes.js
+- Na pasta routers, temos três arquivos javascript: cidades.routes.js, estados.routes.js e paises.routes.js
 
   ```javascript
   const express = require("express");

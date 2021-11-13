@@ -1,4 +1,4 @@
-<!-- # Projeto2_Modulo3
+# Projeto2_Modulo3
 
 - Dentro da pasta Models tem os modelos de banco dos arquivos cidades.js, estados.js e paises.js.
 
@@ -56,4 +56,4 @@ const Pais = mongoose.model("Paises",paisesModel);
   module.exports = Pais;
   ```
 
-- Exportando o modelo pronto  -->
+- Exportando o modelo pronto 

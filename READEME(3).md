@@ -1,4 +1,4 @@
-<!-- # Projeto2_Modulo3
+# Projeto2_Modulo3
 
 - Na pasta routers, temos três arquivos javascript, cidades.routes.js, estados.routes.js e paises.routes.js
 
@@ -363,4 +363,4 @@ router.get('/listall', async (req,res) => {
   module.exports = router;
   ```
 
-- Exportando o módulo router. -->
+- Exportando o módulo router.

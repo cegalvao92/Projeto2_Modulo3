@@ -17,6 +17,23 @@ router.get('/listall', async (req,res) => {
     });
 });
 
+router.get('/listname/:nome', async (req,res) => {
+    const nome = req.params.nome; 
+    await Estado.findOne({ nome:nome }).then((estado) => { 
+        console.log(estado);
+        if(estado == null){ 
+            res.status(404).json({message: "não foi encontrado"});
+        }else{
+            res.status(200).json(estado);
+        }
+
+    }).catch((err) => {
+        res.status(404).json({message:"Nada foi encontrado"});
+        console.error(err);
+    });
+
+})
+
 router.post('/add', async (req,res) => {
     //validando as entradas do usuario
     if(!req.body.nome){
